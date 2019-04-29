@@ -38,7 +38,7 @@ A string literal represents a string constant obtained from concatenating a sequ
   
 Examples:
 - `abc` == "abc"
-- ```
+```
 "日本語"                                 // UTF-8 input text
 `日本語`                                 // UTF-8 input text as a raw literal
 "\u65e5\u672c\u8a9e"                    // the explicit Unicode code points
@@ -50,7 +50,7 @@ Resources:
 - https://golang.org/ref/spec#String_literals
 
 
-Go modules
+## Go modules
 
 Summary:
 go mod init creates a new module, initializing the go.mod file that describes it.
@@ -67,9 +67,11 @@ Log errors that are not program threatening.
 Return an error if you can’t continue or it will lead to data loss or corruption.
 E.g. See sanitize.go
 
+## Testing
+Go includes a test runner in the go toolchain. 
 
-
-
+Resources:
+- https://blog.alexellis.io/golang-writing-unit-tests/
 
 Ruby code:
 
