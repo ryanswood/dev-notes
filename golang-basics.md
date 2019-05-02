@@ -49,10 +49,11 @@ Examples:
 Resources:
 - https://golang.org/ref/spec#String_literals
 
-Printing + Interpolation
+Printing + Interpolation + Concatenation
 
 - https://yourbasic.org/golang/fmt-printf-reference-cheat-sheet/
 - https://medium.com/@channaly/string-interpolation-in-golang-ecb3bcb2d600
+- https://www.calhoun.io/6-tips-for-using-strings-in-go/
 
 
 ## Go modules
