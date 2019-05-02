@@ -49,6 +49,11 @@ Examples:
 Resources:
 - https://golang.org/ref/spec#String_literals
 
+Printing + Interpolation
+
+- https://yourbasic.org/golang/fmt-printf-reference-cheat-sheet/
+- https://medium.com/@channaly/string-interpolation-in-golang-ecb3bcb2d600
+
 
 ## Go modules
 
