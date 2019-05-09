@@ -4,6 +4,7 @@ Language resources:
 - [Quick start guide](https://medium.freecodecamp.org/learning-go-from-zero-to-hero-d2a3223b3d86)
 - [Language spec](https://golang.org/ref/spec)
 - [Effective Go](https://golang.org/doc/effective_go.html)
+- [Full list of resources](https://dave.cheney.net/resources-for-new-go-programmers)
 
 
 ## Strings:
