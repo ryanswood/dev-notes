@@ -77,8 +77,15 @@ E.g. See sanitize.go
 ## Testing
 Go includes a test runner in the go toolchain. 
 
+Only test public methods by using the [package]_test namespace.
+- Use subpackages to share non public parts of the API if other parts of the codebase need it. Still add tests.
+- Testing a private function can cause a gap in the tests for the public behavior. It also can lead to less
+
 Resources:
 - https://blog.alexellis.io/golang-writing-unit-tests/
+- https://medium.com/@thrawn01/why-you-should-never-test-private-methods-f822358e010
+  - Answers: "How do I ensure my private functions are covered?", "How do I avoid crowding the public surface?", "How do I know what interfaces to make public or private?"
+- https://lanre.wtf/blog/2017/05/17/on-package-naming-for-tests/
 
 Ruby code:
 
