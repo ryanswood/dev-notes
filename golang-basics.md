@@ -80,6 +80,9 @@ Only test public methods by using the [package]_test namespace.
 - Use subpackages to share non public parts of the API if other parts of the codebase need it. Still add tests.
 - Testing a private function can cause a gap in the tests for the public behavior. It also can lead to less
 
+Table Tests. They are cool but also can create a mess if there are permuatations and the abstraction needs to change.
+https://dave.cheney.net/2019/05/07/prefer-table-driven-tests
+
 Resources:
 - https://blog.alexellis.io/golang-writing-unit-tests/
 - https://medium.com/@thrawn01/why-you-should-never-test-private-methods-f822358e010
