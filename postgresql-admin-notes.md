@@ -112,6 +112,18 @@ WHERE table_schema = 'public'
 ORDER BY pg_relation_size(table_name) DESC;
 ```
 
+## Getting index sizes
+
+For sum of all indexes for table:
+```sql
+SELECT pg_size_pretty (pg_indexes_size('[schema].[table_name]'));
+```
+
+For breakdown of indexes:
+```sql
+\di+ [schema].[table_name]*
+```
+
 ## Showing long running postgres processes
 
 https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d
